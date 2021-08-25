@@ -1,5 +1,5 @@
 class ServiceUrls {
-  static basePath = `https://trip-backend1.herokuapp.com/`;
+  static basePath = `https://trip-backend1.herokuapp.com`;
   static loginUrl = `${ServiceUrls.basePath}/api/v1/user/login`;
   static logOutUrl = `${ServiceUrls.basePath}/api/v1/user/logout`;
   static getCurrentUserUrl = `${ServiceUrls.basePath}/api/v1/user/current`;
